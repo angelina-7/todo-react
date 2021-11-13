@@ -9,8 +9,10 @@ function App() {
         </header>
 
         <main className="todos">
-            <h3>Tasks</h3>
             <TodoList />
+            <ul>
+              <li>Hi from outside component</li>
+            </ul>
         </main>
 
         <footer>
